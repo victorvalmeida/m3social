@@ -1,0 +1,127 @@
+.container-2  {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 241px;
+  margin-left: -153px;
+}
+
+.balao-container-2  {
+  position: absolute;
+  width: 58vw;
+  height: 117vh;
+  left: -279px;
+  top: 1667px;
+  z-index: -1;
+}
+
+.container-2-img-1  {
+  width: 26.4vw;
+}
+
+.container-2-img-2  {
+  margin-left: -42px;
+  width: 20.5vw;
+}
+
+.container-2-1  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: -90px;
+}
+
+h3  {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 3.8vw;
+  line-height: 4.5vw;
+  color: #3F3E40;
+  width: 27vw;
+  margin-left: 75px;
+}
+
+h3 span {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 3.8vw;
+  line-height: 6vw;
+  color: #E8E7C9;
+  padding: 8px 16px;
+  background: #E6202D;
+  border-radius: 4px;
+}
+
+.container-2-1 p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.06vw;
+  line-height: 1.95vw;
+  color: #3F3E40;
+  width: 33vw;
+  margin-left: 4vw;
+}
+
+.container-3  {
+  background: #E6202D;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 413px;
+  justify-content: center;
+  margin-left: 155px;
+  border-radius: 12px;
+  margin-right: 155px;
+}
+
+.container-3-img  {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: -26vh;
+}
+
+.container-3-img :nth-child(1)  {
+  width: 27vw;
+}
+
+.container-3-img :nth-child(2)  {
+  margin-left: -37px;
+  margin-right: -37px;
+  width: 27vw;
+}
+
+.container-3-img :nth-child(3)  {
+  width: 27vw;
+}
+
+h4  {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.55vw;
+  text-align: center;
+  color: #FFFFFF;
+  width: 51vw;
+  margin-top: -12px;
+}
+
+.container-3 button {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.85vw;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #E8E7C9;
+  background: #3F3E40;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  padding: 16px 116px;
+  border: 0;
+  margin-bottom: 119px;
+}

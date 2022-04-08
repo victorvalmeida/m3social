@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+.container_banner img {
+  margin-top: -91px;
+  z-index: -5;
+  position: relative;
+  width: 99.2vw;
+  height: 100vh;
+}
+
+.container_banner_text  {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  margin-top: -757px;
+  margin-left: 50vw;
+}
+
+h1  {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 3.7vw;
+  line-height: 8.5vh;
+  color: #F5EEEE;
+}
+
+h1 strong {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 2.55vw;
+  line-height: 59px;
+  text-align: center;
+  color: #E8E7C9;
+}
+
+h1 span {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  line-height: 120px;
+  color: #E8E7C9;
+  padding: 10px 16px;
+  background: #E6202D;
+  border-radius: 4px;
+}
+
+.container_1  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 150px;
+}
+
+h2  {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 3.7vw;
+  line-height: 10.4vh;
+  text-align: center;
+  color: #3F3E40;
+  width: 1400px;
+}
+
+h2 span {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  color: #E8E7C9;
+  padding: 10px 16px;
+  background: #E6202D;
+
+}
+
+
+.container_1_sub_1  {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.container_1_sub_1 img{
+  width: 100%;
+}
+
+.container_1_sub_1 :nth-child(2)  {
+  margin-top: -102px;
+}
+
+.container_1_sub_2  {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.container_1_sub_2 img {
+  width: 100%;
+}
+
+.container_1_sub_2 :nth-child(2)  {
+  margin-top: -231px;
+}
+
+.container_1_sub_2 :nth-child(3)  {
+  margin-top: -191px;
+}
+
+.container_1_sub_3  {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 344px;
+  margin-top: -143px;
+}
+
+.container_1_sub_3 img  {
+  width: 100%;
+}
+
+.container_1_sub_3 :nth-child(2)  {
+  margin-top: -70px;
+}
+
+.rocket_blur  {
+  position: relative;
+  left: -18vw;
+  top: -12vw;
+}

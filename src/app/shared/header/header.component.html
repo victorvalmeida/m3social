@@ -1,0 +1,26 @@
+<div class="logo-left">
+  <img class="vector_img" src="../../../assets/img/vector.png" alt="">
+  <img class="logo_img" src="../../../assets/img/logo.png" alt="">
+</div>
+<div class="home_button">
+  <button  (click)="toggleMenu()"><img src="../../../assets/img/button_mobile.png"></button>
+</div>
+<div class="container" *ngIf="showMenu">
+  <div class="close">
+    <span (click)="toggleMenu()">X</span>
+  </div>
+  <div class="menu">
+      <div class="submenu">
+        <a (click)="goTo('')">home</a>
+        <a (click)="goTo('sobre')">sobre nós</a>
+        <a (click)="goTo('fazer')">o que fazemos</a>
+        <a (click)="goTo('portfolio')">portfólio</a>
+        <a>clientes</a>
+        <a>contato</a>
+      </div>
+  </div>
+</div>
+
+<img class="whats" src="../../../assets/img/whats.png" alt="">
+
+

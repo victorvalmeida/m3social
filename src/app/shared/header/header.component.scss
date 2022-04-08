@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Montserrat&display=swap');
+
+.home_button button {
+    border: none;
+    cursor: pointer;
+    margin: 24px;
+    background: none;
+}
+
+.home_button  {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+}
+
+.container  {
+  background-color: red;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  position: absolute;
+
+}
+
+.menu {
+  transition: all 2s;
+
+  :active{
+  transform: translateX(calc(-10.65% + 200px));
+  }
+
+}
+
+.menu a {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 72px;
+  letter-spacing: 0.05em;
+  color: #E8E7C9;
+  text-decoration: none;
+  margin-right: 400px;
+  transition: all 5s;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  cursor: pointer;
+}
+
+.submenu  {
+  margin-top: 10%;
+
+
+  :hover  {
+    transition: all 0.8s;
+    color: grey;
+  }
+}
+
+.close {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  color: white;
+  cursor: pointer;
+  z-index: 5;
+  position: absolute;
+  right: 10vw;
+  top: 9vh;
+  font-family: 'Montserrat';
+  font-size: 20px;
+}
+
+.logo-left  {
+  position: absolute;
+}
+
+.vector_img {
+  opacity: 0.85;
+  z-index: -4;
+  position: absolute;
+  mix-blend-mode: multiply;
+}
+
+.logo_img {
+  position: absolute;
+  left: 3px;
+}
+
+
+.whats  {
+  position: fixed;
+  margin-left: 96vw;
+  margin-top: 85vh;
+}

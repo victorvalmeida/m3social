@@ -1,0 +1,148 @@
+.container_4  {
+  margin-top: 500px;
+}
+
+.container_4_sub_1  {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+  margin-right: 260px;
+}
+
+.img_cont_4 {
+ position: absolute;
+ width: 39px;
+}
+
+.img_cont_4_2 {
+  position: absolute;
+}
+
+h3  {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 72px;
+  text-align: center;
+  color: #3F3E40;
+
+}
+
+.container_4_sub_2  {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+
+  margin-left: 180px;
+  margin-right: 180px;
+}
+
+.container_4 button {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  text-align: center;
+  border: none;
+  background: red;
+  border-radius: 8px;
+  padding: 16px 32px;
+}
+
+.container_4_sub_3{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.background_container_5 {
+  background-color: #E6202D;
+  margin-top: 177px;
+}
+
+.container_5_text_1 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #F5EEEE;
+  padding-top: 72px;
+}
+
+.container_5_text_2 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  color: #E8E7C9;
+  margin-top: -26px;
+}
+
+h4  {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 80px;
+  text-align: center;
+  color: #E8E7C9;
+  background-color: #3F3E40;
+  margin-left: 550px;
+  margin-right: 550px;
+  margin-top: 0px;
+  width: 862px;
+  border-radius: 10px;
+  padding: 8px 16px;
+}
+
+.container_5_button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 72px;
+
+}
+
+.container_5_button button {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+
+  background: #434343;
+  padding: 16px 32px;
+  border-radius: 8px;
+  border: none;
+}
+
+.container_6  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h5  {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 80px;
+  text-align: center;
+  color: #E6202D;
+  margin-bottom: 60px;
+
+}

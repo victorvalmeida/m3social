@@ -1,0 +1,120 @@
+.container-banner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-sobre {
+  z-index: -5;
+  height: 100vh;
+  width: 100vw;
+  margin-top: -91px;
+}
+
+.balao-sobre  {
+  position: absolute;
+  mix-blend-mode: darken;
+  width: 48vw;
+  height: 47vw;
+  left: 24vw;
+  top: 19px;
+}
+
+.container-banner-text  {
+  position: absolute;
+  left: 48vw;
+}
+
+h1{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 2.6vw;
+  line-height: 59px;
+  text-align: inherit;
+  color: #E8E7C9;
+  margin-bottom: -81px;
+}
+
+.banner-text-1 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 3.8vw;
+  line-height: 80px;
+  color: #F5EEEE;
+  width: 31vw;
+}
+
+.banner-text-2  {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 3.8vw;
+  line-height: 80px;
+  color: #E8E7C9;
+  background: #E6202D;
+  border-radius: 4px;
+  padding: 10px 16px;
+  margin-top: -75px;
+}
+
+.banner-text-3  {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 3.8vw;
+  line-height: 80px;
+  color: #E8E7C9;
+  background: #E6202D;
+  border-radius: 4px;
+  padding: 10px 16px;
+  width: 26vw;
+  margin-top: -58px;
+}
+
+.container-1  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h2{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 3.8vw;
+  line-height: 80px;
+  color: #3F3E40;
+  width: 67vw;
+  margin-top: 114px;
+}
+
+h2 span {
+  font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 3.3vw;
+    line-height: 80px;
+    color: white;
+    background: #E6202D;
+    border-radius: 4px;
+    padding: 3px 9px;
+}
+
+h2 strong {
+  color: #E6202D;
+}
+
+.container-1 p {
+  font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    color: #3F3E40;
+    margin-left: 53vw;
+    width: 33vw;
+}
