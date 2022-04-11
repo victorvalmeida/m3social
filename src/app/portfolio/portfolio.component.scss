@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 .container_banner {
   display: flex;
@@ -11,7 +12,7 @@ h1 {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 800;
-  font-size: 70px;
+  font-size: 4vw;
   line-height: 80px;
   color: #3F3E40;
 }
@@ -24,7 +25,7 @@ h1 span {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 1.1vw;
   line-height: 36px;
   text-align: center;
   color: #3F3E40;
@@ -34,4 +35,141 @@ h1 span {
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+.brand_logos  {
+  margin-top: -121px;
+  width: 37vw;
+}
+
+.container_2  {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.port_cont  {
+  width: 60vw;
+}
+
+.joia {
+  width: 3.5vw;
+}
+
+.container_2_sub  {
+  margin-left: 128px;
+}
+
+.container_2 h2 span{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 4vw;
+  line-height: 80px;
+  color: #E6202D;
+}
+
+h2  {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 4vw;
+  line-height: 80px;
+  color: #3F3E40;
+  width: 20vw;
+  margin-top: 0px;
+}
+
+.container_2 p  {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.1vw;
+  line-height: 36px;
+  color: #3F3E40;
+}
+
+.container_3  {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container_3_click {
+  width: 4vw;
+}
+
+.portfolio-ads  {
+  width: 50vw;
+}
+
+h3  {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 4vw;
+  line-height: 80px;
+  color: #3F3E40;
+  margin-top: 0;
+}
+
+h3 span {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 4vw;
+  line-height: 80px;
+  color: #E6202D;
+}
+
+.container_3 p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.1vw;
+  line-height: 36px;
+  color: #3F3E40;
+  margin-top: -23px;
+}
+
+.container_4  {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.influencer {
+  width: 55vw;
+}
+
+h4  {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 4vw;
+  line-height: 80px;
+  color: #3F3E40;
+  margin-top: 0;
+  width: 524px;
+}
+
+h4 span {
+  color: #E6202D;
+}
+
+.container_4 p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.1vw;
+  line-height: 36px;
+  color: #3F3E40;
+  margin-top: -68px;
+  width: 500px;
+}
+
+.container_4_sub  {
+  margin-left: 10vw;
 }
